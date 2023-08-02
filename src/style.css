@@ -57,6 +57,7 @@ h2 {
 textarea {
 	min-width: 1000px;
 	min-height: 1000px;
+	opacity: 0.5;
 }
 
 button {
