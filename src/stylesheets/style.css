@@ -16,9 +16,9 @@ body {
 	background: rgb(174, 169, 255);
 	background: radial-gradient(
 		circle,
-		rgba(174, 169, 255, 1) 0%,
-		rgb(206, 204, 242) 35%,
-		rgba(240, 245, 195, 1) 100%
+		rgb(235, 158, 200) 0%,
+		rgb(195, 186, 241) 35%,
+		rgb(245, 246, 230) 100%
 	);
 	background-repeat: inherit;
 }
@@ -26,14 +26,14 @@ body {
 h1 {
 	font-family: 'Space Grotesk', sans-serif;
 	color: rgb(114, 109, 216);
-	font-size: 55px;
+	font-size: 65px;
 	font-weight: 300;
 }
 
 h2 {
 	font-family: 'IBM Plex Mono', monospace;
 	color: rgb(114, 109, 216);
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
@@ -47,15 +47,15 @@ h2 {
 	height: 55px;
 	margin: 30px;
 	border: 2px solid rgb(202, 177, 247);
-	padding: 10px;
-	font-size: 14px;
+	padding: 20px;
+	font-size: 16px;
 	font-family: 'IBM Plex Mono', monospace;
 }
 
 textarea {
 	min-width: 900px;
 	min-height: 900px;
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 button {
