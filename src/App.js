@@ -1,3 +1,4 @@
+import Header from './components/Header'
 import React from 'react'
 import { useState } from 'react'
 import '../src/stylesheets/style.css'
@@ -18,8 +19,7 @@ function App() {
 
 	return (
 		<div className='app-main'>
-			<h1>mind write</h1>
-			<h2>a space to write what's on your mind, no commitments.</h2>
+			<Header />
 			<textarea
 				id='message'
 				className='app-input'
