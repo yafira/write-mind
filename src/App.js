@@ -19,7 +19,7 @@ function App() {
 	return (
 		<div className='app-main'>
 			<h1>mind write</h1>
-			<h2>a space to write what's on your mind, no strings attached.</h2>
+			<h2>a space to write what's on your mind, no commitments.</h2>
 			<textarea
 				id='message'
 				className='app-input'
