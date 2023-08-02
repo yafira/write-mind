@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import './style.css'
-import './queries.css'
+import '../src/stylesheets/style.css'
+import '../src/stylesheets/queries.css'
 
 function App() {
 	const [message, setMessage] = useState('')
@@ -22,9 +22,9 @@ function App() {
 			<h2>a space to write what's on your mind, no strings attached.</h2>
 			<textarea
 				id='message'
+				className='app-input'
 				name='message'
 				type='text'
-				className='app-input'
 				placeholder='what is on your mind?'
 				onChange={handleChange}
 				value={message}

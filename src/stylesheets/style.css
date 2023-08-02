@@ -8,12 +8,10 @@
 	justify-items: center;
 }
 
-html {
-	min-height: 100%;
-}
-
+html,
 body {
-	display: flex;
+	margin: 0;
+	height: 100%;
 	/* background-color: rgb(254, 255, 232); */
 	background: rgb(174, 169, 255);
 	background: radial-gradient(
@@ -55,8 +53,8 @@ h2 {
 }
 
 textarea {
-	min-width: 1000px;
-	min-height: 1000px;
+	min-width: 900px;
+	min-height: 900px;
 	opacity: 0.5;
 }
 
