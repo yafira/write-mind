@@ -25,7 +25,7 @@ function App() {
 				className='app-input'
 				name='message'
 				type='text'
-				placeholder='what is on your mind?'
+				placeholder='inhale, exhale, let it all out.'
 				onChange={handleChange}
 				value={message}
 			/>
