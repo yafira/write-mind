@@ -53,3 +53,48 @@ h2 {
 	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
 }
+
+textarea {
+	min-width: 1000px;
+	min-height: 1000px;
+}
+
+button {
+	letter-spacing: 1px;
+	display: block;
+	border-width: 0;
+	font-size: 16px;
+	color: #000000;
+	padding: 1.5rem 2rem;
+	cursor: pointer;
+	transition: 0.25s ease;
+}
+
+button:disabled,
+button[disabled] {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+}
+
+.clay {
+	--clay-background: #c7d0f5;
+	--clay-border-radius: 1rem;
+	--clay-shadow-outset: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+	--clay-shadow-inset-primary: -8px -8px 8px 0 rgba(0, 0, 0, 0.2);
+	--clay-shadow-inset-secondary: 8px 8px 8px 0 hsla(0, 0%, 100%, 0.4);
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+}
+
+button:hover {
+	background-color: #b2b0ef;
+}
+
+button:active {
+	background-color: #6d7ec0;
+}
+
+.clay:active {
+	transform: scale(0.98) translate3d(0, 0, 0);
+}
