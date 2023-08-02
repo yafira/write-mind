@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './style.css'
+import './queries.css'
 
 function App() {
 	const [message, setMessage] = useState('')
@@ -28,7 +29,12 @@ function App() {
 				onChange={handleChange}
 				value={message}
 			/>
-			<button button onClick={() => setMessage('')} disabled={!valid}>
+			<button
+				className='clay'
+				button
+				onClick={() => setMessage('')}
+				disabled={!valid}
+			>
 				Clear
 			</button>
 		</div>
