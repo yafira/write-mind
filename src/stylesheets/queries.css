@@ -16,7 +16,7 @@
 
 	textarea {
 		min-width: 200px;
-		min-height: 600px;
+		min-height: 900px;
 		margin: 0;
 	}
 
@@ -39,7 +39,7 @@
 	h2 {
 		font-size: smaller;
 		margin-top: 5px;
-		margin-bottom: 20px;
+		margin-bottom: 60px;
 	}
 
 	::placeholder {
@@ -49,5 +49,13 @@
 	button {
 		padding: 12px;
 		margin: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	textarea {
+		min-width: 200px;
+		min-height: 500px;
+		margin: 0;
 	}
 }
